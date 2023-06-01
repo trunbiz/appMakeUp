@@ -1,17 +1,32 @@
 <template>
-  <view class="container">
-    <text class="text-color-primary">My Vue Native App</text>
-  </view>
+<!--    <view class="container">-->
+<!--        <button-->
+<!--            title="Learn More"-->
+<!--            color="#841584"-->
+<!--            accessibility-label="Learn more about this purple button"/>-->
+<!--&lt;!&ndash;            <web-view :source="{uri:'https://google.com'}"/>&ndash;&gt;-->
+<!--    </view>-->
+    <web-view :source="{uri:'http://beauty-makeup.moonfarmviet.com/login'}"/>-->
 </template>
+<script>
+import {WebView} from "react-native-webview";
 
+export default {
+    name: "myComponent",
+    components: {
+        "web-view": WebView
+    }
+};
+</script>
 <style>
 .container {
-  background-color: white;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
+
 .text-color-primary {
-  color: blue;
+    color: blue;
 }
 </style>
