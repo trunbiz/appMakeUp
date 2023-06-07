@@ -6,7 +6,7 @@
 <!--            accessibility-label="Learn more about this purple button"/>-->
 <!--&lt;!&ndash;            <web-view :source="{uri:'https://google.com'}"/>&ndash;&gt;-->
 <!--    </view>-->
-    <web-view :source="{uri:'https://beauty-makeup.moonfarmviet.com/login'}"/>-->
+    <web-view :source="{uri:'https://beauty-makeup.moonfarmviet.com'}"/>-->
 </template>
 <script>
 import {WebView} from "react-native-webview";
